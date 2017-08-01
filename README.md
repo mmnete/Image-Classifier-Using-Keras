@@ -1,6 +1,10 @@
-#So let us build an Image Classifier
+# So let us build an Image Classifier
+
+
 Before you start please open this link 
+
 https://chunml.github.io/ChunML.github.io/project/Tensorflow-Installation/
+
 This will teach you how to download all the dependencies we will use in this short tutorial.
 
 So we want to build a machine learning model that will be able to classify images of cars from images of people.
