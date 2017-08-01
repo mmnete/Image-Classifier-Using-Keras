@@ -10,6 +10,10 @@ This will teach you how to download all the dependencies we will use in this sho
 So we want to build a machine learning model that will be able to classify images of cars from images of people.
 The datasets used can be found here. 
 
+The image below kind of explains what happens when we work with a convolution2d model.
+
+![Alt text](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwirkPK9jrXVAhUq5IMKHVI3DMsQjRwIBw&url=https%3A%2F%2Felitedatascience.com%2Fkeras-tutorial-deep-learning-in-python&psig=AFQjCNGyHBonysni_RX1kXeuqmE7Th6Hxw&ust=1501645212297690 "The computer is making a prediction.")
+
 http://www-old.emt.tugraz.at/~pinz/data/GRAZ_01/ - Images of People.
 http://ai.stanford.edu/~jkrause/cars/car_dataset.html - Images of Cars.
 
