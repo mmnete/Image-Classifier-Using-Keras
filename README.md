@@ -1,3 +1,8 @@
+#So let us build an Image Classifier
+Before you start please open this link 
+https://chunml.github.io/ChunML.github.io/project/Tensorflow-Installation/
+This will teach you how to download all the dependencies we will use in this short tutorial.
+
 So we want to build a machine learning model that will be able to classify images of cars from images of people.
 The datasets used can be found here. 
 
@@ -12,7 +17,7 @@ Save all those images in two seperate directories.
 We will then programmatically check those directories, get the filenames and add then to our input arrays 
 
 Before you start please make the necessary imports
-'''
+```
 
 #Let us make all the necessary imports
 import numpy as np #this is for matrix calculations and also preparing the input data matrix
@@ -36,10 +41,10 @@ from os.path import isfile, join
 
 
 
-'''
+```
 
 After that, try and run the program. If everything is okay, then you are ready to go. 
-'''
+```
   from os import listdir
 from os.path import isfile, join
 
@@ -47,7 +52,7 @@ people_image_files = [f for f in listdir('dataset/prepared_people_images/')]
 car_image_files = [f for f in listdir('dataset/prepared_car_images/')]
 
 
-'''
+```
 At this point you should get all the image names in those two lists.
 
 This code checks into the file directories prepared_car_images/ and prepared_people_images/ for all the files available 
@@ -58,7 +63,7 @@ So we know that we have very few images. That means we need to augment the data 
 We will try to flip each image both vertically and horizontally, so that we know for each image we have 3 images 
 
 We will do the code below for each input 
-'''
+```
 
 t = 0
 for i in car_image_files:
@@ -79,12 +84,12 @@ for i in car_image_files:
     labels.append(np.array([1,0]))
     labels.append(np.array([1,0]))
     t += 1
-'''
+```
 
 Now it is time to create our model, we will be create our model and we will obviously do two things before we input our data
 First of all we have to get the shape of the input data,
 The code below does that, and also shows the model built
-'''
+```
 
 
 #Now we will reshape the inputs one more time
@@ -136,7 +141,7 @@ model.compile(loss='binary_crossentropy', optimizer="rmsprop",metrics=["accuracy
 model.fit(input_images1, labels1, batch_size = 50, nb_epoch=1, verbose = 1, validation_data=(validation_input_images,validation_labels))
 
 
-'''
+```
 
 You obviously have to change the epoch and everything, but this model at most will have an accuracy of around 80%
 As for what each layer means, let us break it down this way.
