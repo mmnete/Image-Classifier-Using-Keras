@@ -18,7 +18,12 @@ Just download python, numpy, cv2, and keras. After downloading all that you will
 If you just want to test the model yourself, you can run the let_me_predict.py. Make sure you save it in the directory where the image you want 
 to classify is, and it will prompt for the name of the image
 Save all those images in two seperate directories.
-We will then programmatically check those directories, get the filenames and add then to our input arrays 
+We will then programmatically check those directories, get the filenames and add then to our input arrays.
+
+If you would just like to run the program, simply take the download the file let_me_predict.py and run in the command line as shown below.
+``` 
+python let_me_predict.py
+```
 
 Before you start please make the necessary imports
 ```
