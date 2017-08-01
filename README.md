@@ -153,7 +153,11 @@ model.fit(input_images1, labels1, batch_size = 50, nb_epoch=1, verbose = 1, vali
 
 ```
 
-You obviously have to change the epoch and everything, but this model at most will have an accuracy of around 80%
+You obviously have to change the epoch to some greater number. The epoch is the number of times we want the inputs to got into the network when we are training it. The more the epochs, the better the accuracy. The better accuracy can also be attained by changing the optimizer and the loss function. For me these are the results that I am currently getting.
+
+![Alt text](http://i.imgur.com/8rmX2yY.jpg "The computer is learning.")
+
+Obviously, after training more our network will eventually learn more and become better.
 As for what each layer means, let us break it down this way.
 The first layer is obviously the input, the second one is the just an activation.
 Now convolution layers usually take smaller portions of bigger images and summarize those as the inputs into the network. 
