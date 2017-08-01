@@ -24,6 +24,7 @@ If you would just like to run the program, simply take the download the file let
 ``` 
 python let_me_predict.py
 ```
+![Alt text](http://imgur.com/WiuvFav "The computer is making a prediction.")
 
 Before you start please make the necessary imports
 ```
