@@ -12,7 +12,7 @@ The datasets used can be found here.
 
 The image below kind of explains what happens when we work with a convolution2d model.
 
-![Alt text](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwirkPK9jrXVAhUq5IMKHVI3DMsQjRwIBw&url=https%3A%2F%2Felitedatascience.com%2Fkeras-tutorial-deep-learning-in-python&psig=AFQjCNGyHBonysni_RX1kXeuqmE7Th6Hxw&ust=1501645212297690 "The computer is making a prediction.")
+![Alt text](https://elitedatascience.com/wp-content/uploads/2016/11/typical_cnn_architecture.png "The computer is making a prediction.")
 
 http://www-old.emt.tugraz.at/~pinz/data/GRAZ_01/ - Images of People.
 http://ai.stanford.edu/~jkrause/cars/car_dataset.html - Images of Cars.
